@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Noto Sans Mono', monospace;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnKCD1Oqq6W1_1jb24qgo76ROcUlWs86-T_w&usqp=CAU");
+   
+}
+.card{
+width: 400px;
+height: 600px;
+border-radius: 30px;
+background: rgb(245, 138, 66);
+margin: 50px auto;
+box-shadow: 0 0 20px rgb(248, 95, 95); 
+position: relative;
+top: 100px;
+}
+.header{
+    width: 400px;
+    height: 200px;
+border-radius: 20px 30px 0 0;
+    background-color: #9efdaa;
+    border-bottom: 2px solid rgb(255, 0, 0);
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOM9ND2-bEG8-mHsJp1j08d9keV7ooEbXjoA&usqp=CAU");
+
+}
+
+.body{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    height: 24px;
+}
+.footer{
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    padding-top: 2px;
+position: absolute;
+bottom: 0;
+border-top: 5px solid  rgb(245, 138, 66);
+}
+.dato{
+    display: inline-block;
+    padding: 10px;
+}
+.claro{
+    background: rgb(228, 144, 144);
+    color: black;
+    opacity: 0.6;
+    top: 20px;
+}
+.numero{
+    font-size: 15px;
+    font-weight: bolder;
+    text-shadow: 0 0  rgb(0, 0, 0);
+    bottom: 25px;
+}
+.tipo{
+    font-size: 15px;
+    color: rgb(0, 136, 255);
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+}
+.btn-login{
+    background: rgb(220, 175, 250);
+    bottom: 30px;
+}
+.texto{
+    text-align: center;
+    font-size: 22px;
+    opacity: 0.8;
+    text-shadow: blue;
+    bottom: 55px;
+}
