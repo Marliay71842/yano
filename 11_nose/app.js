@@ -10,17 +10,20 @@ const  verClima= async()=>{
         console.log(url);
         const api= await fetch(url);
         const data = await api.json();
+        
         console.log(data);
+        const urlIcon = `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`
         divRes.innerHTML=`
-        <h1>${data.name}</h1>
+        <h1>${data.name}, ${data.sys.country}</h1>
         <p>Temperatura:${data.main.temp} °C</p>
-        <p>${data.weather[0].description.toUpperCase()}</p>
-        <p>Min: ${data.main.temp_min}</p>
-        <p>Max: ${data.main.temp_max}</p>
+        <img src="${urlIcon}">
+        <h2>${data.weather[0].description.toUpperCase()}</h2>
+        <p>Min: ${data.main.temp_min} °C</p>
+        <p>Max: ${data.main.temp_max} °C</p>
         <p>Presion: ${data.main.pressure}</p>
         <p>Humedad: ${data.main.humidity}</p>
-        <p>Velocidad del viento: ${data.wind.speed}</p>
-        `
+        <p>Velocidad del viento: ${data.wind.speed} m/s</p>
+        `;
     }
         navigator.geolocation.getCurrentPosition(success, function(msg){
         console.error( msg );
