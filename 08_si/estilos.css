@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(255,100,168);
+    background: linear-gradient(90deg, rgba(255,100,168,1) 28%, rgba(60,142,238,1) 99%);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(129, 127, 127);
+    padding: 15px;
+}
+.box{
+    border: 2px solid white;
+    background: rgb(236, 144, 232);
+    opacity: 80%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.box:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 20px black;
+}
+p{
+    margin: 3px;
+    border-bottom: 2px solid white;
+    opacity: 100%;
+}
