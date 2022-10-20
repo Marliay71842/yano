@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+    background: rgb(165,138,255);
+background: radial-gradient(circle, rgba(165,138,255,1) 15%, rgba(190,124,255,1) 100%);
+}

@@ -8,7 +8,7 @@ body{
     background: linear-gradient(90deg, rgba(255,100,168,1) 28%, rgba(60,142,238,1) 99%);
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 15px;
 }
 #Res{
@@ -25,11 +25,11 @@ body{
 }
 button:hover{
     transform: scale(1);
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px rgb(88, 88, 88);
 }
 p{
     margin: 3px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(255, 208, 208);
     opacity: 100%;
 }
 img{
@@ -38,6 +38,6 @@ img{
     margin: 20px;
 }
 div{
-    border: 2px solid white;
+    border: 2px solid rgb(250, 203, 203);
     width: 80%;
 }
