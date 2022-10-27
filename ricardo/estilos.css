@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(74,131,129);
+    background: linear-gradient(90deg, rgba(74,131,129,1) 0%, rgba(0,88,102,1) 35%, rgba(180,255,250,1) 100%);
+    font-family: 'Island Moments', cursive;
+}
+#resultado{
+display: grid;
+grid-template-columns: repeat(4, 2fr);
+grid-template-rows: auto;
+gap: 25px;
+
+}
